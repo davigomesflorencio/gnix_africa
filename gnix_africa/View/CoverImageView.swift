@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct CoverImageView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  
+  let coverImages :[CoverImage] = Bundle.main.decode("covers.json")
+  
+  var body: some View {
+    TabView{
+      ForEach(coverImages){ item in
+        Image(item.name)
+          .resizable()
+          .scaledToFill()
+      }
     }
+    .tabViewStyle(PageTabViewStyle())
+  }
 }
 
 #Preview {
-    CoverImageView()
+  CoverImageView()
 }

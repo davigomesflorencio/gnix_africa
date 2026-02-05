@@ -7,12 +7,7 @@
 
 import SwiftUI
 
-struct CoverImageModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    CoverImageModel()
+struct CoverImage : Codable,Identifiable{
+  let id: Int
+  let name: String
 }

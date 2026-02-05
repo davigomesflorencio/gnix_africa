@@ -11,7 +11,7 @@ import SwiftUI
 struct gnix_africaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

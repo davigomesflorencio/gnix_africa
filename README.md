@@ -1,3 +1,8 @@
+<div>
+<img src="./screenshots/photo_2026-02-06 11.06.07.jpeg" alt="drawing" style="width:auto;"/>
+
+</div>
+
 # Africa (gnix_africa)
 
 Africa is a beautiful and interactive iOS application built with SwiftUI that serves as a comprehensive encyclopedia for African animals. Users can explore various species through detailed galleries, interactive maps, insightful videos, and educational facts.
@@ -10,6 +15,16 @@ Africa is a beautiful and interactive iOS application built with SwiftUI that se
 - **Dynamic Image Gallery**: Explore stunning photography with a flexible grid layout system.
 - **Educational Facts**: Interactive and engaging facts about each animal to enhance learning.
 - **iMessage Stickers**: A dedicated sticker pack extension included for use in the Messages app.
+
+---
+
+## 📸 Screenshots
+
+|            Home            |         Videos         |         Map Detail          |            Gallery             |
+| :------------------------------: | :-------------------------: | :---------------------------: | :-----------------------------: |
+| ![Home](screenshots/1.png) | ![Videos](screenshots/2.png) | ![Map](screenshots/3.png) | ![Gallery](screenshots/4.png) |
+
+---
 
 ## 🛠 Technologies Used
 
